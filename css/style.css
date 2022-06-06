@@ -1,0 +1,789 @@
+
+
+body {
+    background: #000000;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+  }
+  .rest{
+    background: #000000;
+    background-repeat: no-repeat;    
+    background-size: contain;
+    background-image: url(../multimedia/Fondos/uritorco2.jpg);
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+  }
+  .contact{
+    background: #000000;
+    background-repeat: no-repeat;    
+    background-size: contain;
+    background: url(../multimedia/Fondos/fondolargo.png);
+    background-size: 100%;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+  }
+  .principal{
+    background: #000000;
+    background-repeat: no-repeat;    
+    background-size: contain;
+    background: url(../multimedia/Fondos/siluetas3.png);
+    background-size: 100%;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+  }
+
+
+/* NAV BAR****************************************************************************************/
+.headerNav {
+  background-image: url(../multimedia/Fondos/solocirculo2.png);
+  background-size: 1800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-around;
+  position: sticky;
+  top: -1px;
+  z-index: 101;
+  height: 160px;
+  transition: 1.5s;
+  -moz-transition: 1.5s;
+  margin-left: 30px;
+  }
+    .headerNav:hover{
+    background-image: url(../multimedia/Fondos/pagina4.png);    
+    margin-right: 30px;
+    transition: 1.5s;
+    -moz-transition: 1.5s;
+    }
+.cajas{
+  margin-top: -25px;
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  font-size: 14px;
+}
+.centro{
+  display: flex;
+  align-items: flex-end;
+  margin-top: 10px;
+  margin-right: 285px;
+  transition: 2s;
+  -moz-transition: 2s;
+  height: 100px;
+  width: 100px;
+}
+  .centro:hover{
+    transform: rotate(-180deg);
+     
+  }
+
+.button {
+  display: inline-block;
+  text-decoration: none;
+  padding: 2px 30px;
+  border: 1px solid;
+  color: #ffffff00;
+  border-radius: 10px;
+  animation: iluminacion 1150ms infinite;
+  transition: 0.5s;
+  -moz-transition: 0.5s; 
+}
+  .button:hover {
+    animation: pulsate 2s ease-in-out;
+    color: #ffffff;
+    transform: scale(1.1);
+  }
+  @keyframes pulsate{
+    0%{
+      box-shadow: 
+      0 0 10px #eeba5b,
+      0 0 30px #eff3bd;
+          
+      }
+  } 
+  @keyframes iluminacion{
+    0%{
+      text-shadow: 
+      0 0 10px white,
+      0 0 30px rgb(233, 240, 141);
+    }
+  } 
+
+/* MAIN PAGE ******************************************************************/
+
+.intro{
+  background: none;
+  transition: all 1.5s ease-out;
+}
+.intro:hover{
+  color: #fdfdfdb4;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 30px;
+  text-shadow:
+  0 0 20px #136e7e;
+}
+  .intro h2{
+  color: #e8ecc3;
+  font-weight: 300;
+  text-align: center;
+  transition: 1s;
+  -moz-transition: 1s;
+  margin-right: 50px;
+  font-size: 60px;
+  }
+  .intro h2:hover{
+    margin-left: 50px;
+    text-shadow: 
+    0 0 10px white,
+    0 0 30px rgb(233, 240, 141);
+  }
+  .sub{
+    margin-left: 800px;
+    margin-bottom: 50px;
+    color: #c0c2b4;
+    text-shadow: 
+    0 0 5px #ddcfbe;
+    font-weight: 100;
+  }
+    .sub:hover{
+      text-shadow: 
+      0 0 5px #eeba5b,
+      0 0 20px #e8ecc3;
+    }
+  .palfondo{
+    color: #4848524b;
+    margin-left: 30px;
+    margin-right: 30px;
+    font-size: 30px;
+    font-weight: 200;
+    text-align: left;
+    transition: all 1.5s ease-out;
+  }
+  .fondo h6{
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 100;
+    text-align: right;
+    margin-right: 50px;
+    margin-top: -40px;
+    transition: all 1.5s ease-out;
+    font-style: italic;
+  }
+    .intro .palfondo:hover{
+      color:#fdfdfdb4 ;
+    }
+  .explicacion h1{
+    color: #f1f3ce;
+    text-shadow:
+    0 0 10px #030303;
+    transition: 0.5s;
+    -moz-transition: 0.5s;
+    text-align: center;
+    font-weight: 200;
+    font-size: 24px;
+    margin-left: 150px;
+    margin-right: 150px;
+    } 
+      .explicacion h1:hover{ 
+        text-shadow: 
+        0 0 10px white,
+        0 0 30px rgb(233, 240, 141);
+      }
+  .explicacion h1 span{
+    color: #ffffff;
+    text-shadow:
+    6px 6px 5px rgb(0, 0, 0);
+    font-size: 20px;
+    margin: 20px;
+    animation: iluminacion 820ms infinite;
+    font-style: italic;
+  }
+  .explicacion h5{
+    padding: 30px;
+    margin-left: 150px;
+    margin-right: 150px;
+    font-size: 18px;
+    font-weight: 100;
+    text-align: center;
+  }
+.imagenes {
+  text-align: center;
+}
+.img{
+  transition: 2s;
+  -moz-transition: 2s;
+}
+  .img:hover{
+    transform: rotate(-180deg);
+  }
+.animate__animated.animate__fadeInLeft {
+  --animate-duration: 2s;
+}
+
+.homeSection {
+  background-size: cover;
+  margin-left: 50px;
+  margin-right: 50px;
+  background: #000000;
+}
+h3{
+  color: #e8ecc3;
+  font-weight: 300;
+  text-align: center;
+  transition: 1s;
+  -moz-transition: 1s;
+  margin-right: 50px;
+  font-size: 45px;
+}
+  h3:hover{
+    margin-left: 50px;
+    text-shadow: 
+    0 0 10px white,
+    0 0 30px rgb(233, 240, 141);
+    transform: scale(0.9);
+  }
+p{
+  color: #e8ecc3;
+}
+.step {
+  display: flex;
+  align-items: center;
+  min-height: 6.5rem;
+  font-size: 1.2rem;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.step .step-icon {
+  width: 70px;
+  height: 70px;
+}
+.step .step-title {
+  color: #2fbdbd;
+  font-weight: 400;
+}
+.step .step-text {
+  padding: 1rem;
+  text-decoration: none;
+}
+.step .step-text .step-link {
+  color: #e77b00;
+  text-decoration: none;
+}
+.step .step-text .step-link:hover{
+  text-shadow: 
+  0 0 10px #e77b00,
+  0 0 30px #e77b00;
+}
+.runa1, .runa2, .runa3, .runa4, .runa5{
+  transition: 0.5s;
+  -moz-transition: 0.5s;
+}
+.runa1:hover, .runa2:hover, .runa3:hover, .runa4:hover, .runa5:hover{
+  transform: scale(1.1);
+}
+.heptagrama{
+  transition: 2s;
+  -moz-transition: 2s;
+}
+  .heptagrama:hover{
+    transform: rotate(-180deg);
+  }
+ul{
+  position: absolute;
+  transform: translate(-50%, -50%);
+  display: flex;
+  margin-left: 200px;
+}
+ul li{
+  list-style: none;
+  width: 100px;
+  height: 100px;
+  animation: grow 1.6s ease-in-out infinite;
+  display: flex;
+}
+@keyframes grow
+{
+  0% , 80% , 100%
+{
+  transform: scale(0.4);
+}
+20%{
+transform: scale(0.6);
+}
+}
+ul li:nth-child(1){
+  animation-delay: -1.4s;
+}
+ul li:nth-child(2){
+  animation-delay: -1.2s;
+}
+ul li:nth-child(3){
+  animation-delay: -1s;
+}
+ul li:nth-child(4){
+  animation-delay: -0.8s;
+}
+ul li:nth-child(5){
+  animation-delay: -0.6s;
+}
+
+/* como funciona ******************************************************************************/
+
+.explicacionUno h1{
+  color: #f1f3ce;
+  text-shadow:
+  0 0 10px #030303;
+  transition: 0.5s;
+  -moz-transition: 0.5s;
+  text-align: center;
+  font-weight: 200;
+  font-size: 18px;
+  margin-top: 50px;
+  margin-left: 150px;
+  margin-right: 150px;
+  } 
+.comoFunciona{
+  background: #000000;
+  background-size: 100%;
+  margin-top: 25px;
+} 
+.fondoDos h2{
+  color: #e8ecc3;
+  font-weight: 200;
+  font-size: 22px;
+  margin-top: 50px;
+  margin-right: 120px;
+  margin-left: 25px;
+  text-align: left;
+  transition: 1.5s;
+}
+  .fondoDos h2:hover{
+    margin-left: 120px;
+    margin-right: 25px;
+    text-shadow: 
+    0 0 10px #ffffff
+    0 0 20px #eff3bd;
+  }
+.Seis{
+  color: #e8ecc3;
+  font-weight: 200;
+  font-size: 18px;
+  margin-top: 50px;
+  margin-left: 150px;
+  text-align: right;
+  transition: 1.5s;
+}
+  .Seis:hover{
+    margin-left: 5px;
+    margin-right: 150px;
+    text-shadow: 
+    0 0 10px #ffffff
+    0 0 20px #eff3bd;
+  }
+
+/* RUNES PAGE ***************************************************************************/
+.degrade{
+  background: #000000a8;
+  height: 70px;
+}
+.tarjetas{
+  background: url(../multimedia/Fondos/siluetas3.png);   
+  box-shadow: 
+  0 0 10px #2fbdbd;
+  display: flex;
+  flex: 1 1 auto;
+  flex-flow: row wrap;  
+}
+.card{
+  background: #00000013;
+  flex: 1 1 auto;
+  margin: 20px;
+  padding: 10px; 
+  transition: 1s;
+  box-shadow: 
+  0 0 10px #2fbdbd;
+  text-align: center;
+  color: #ffffff9d;
+  width: 300px;
+}
+.cardOne{
+  background: #00000013;
+  flex: 1 1 30%;
+  margin: 20px;
+  padding: 10px; 
+  transition: 1s;
+  box-shadow: 
+  0 0 10px #2fbdbd;
+  text-align: center;
+  color: #ffffff9d;
+  width: 350px;
+}
+  .card:hover{
+    transform: scale(1.05);
+    box-shadow: 
+    0 0 5px white,
+    0 0 10px rgb(233, 240, 141);
+  }
+  .card h4{
+    font-variant: small-caps; 
+    color: #e77b00;
+  }
+.card-body{
+  display: flex;
+  margin: 10px;
+  text-align: center;
+}
+.card-title{
+  display: flex;
+  flex-flow: column wrap;
+  text-align: center;
+  margin-left: 40px;
+}
+  .Uso h4{
+    color: #eff3bd;
+    display: flex;
+    flex-flow:  wrap;
+    font-size: 18px; 
+  }
+  .Name h5{
+    color: whitesmoke;
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 
+    0 0 5px white,
+    0 0 10px rgb(122, 230, 238);
+    margin-left: -15px;  
+  }
+  .runas{
+  margin-top: -30px;
+  padding: -10px;
+  }
+    h6{
+      font-size: 30px;
+      text-transform: uppercase;
+      padding: 0 2px;
+      letter-spacing: 2px;
+    }
+  .colores{
+    display: flex;
+  }
+
+
+ /* HEPTAGRAM PAGE ***************************************************************************/
+  
+.heptafondo{
+  background: none;
+  background: url(../multimedia/heptagramas/blanco.png);
+  background-size: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.heptafondo:hover{
+  background: url(../multimedia/heptagramas/negro.png);
+  background-size: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.heptafondo .titleTwo{
+  color: #000000;
+  text-shadow: 
+  0 0 10px #eff3bd;
+}
+.heptafondo .titleTwo:hover{
+  color: #eff3bd;
+  text-shadow: 
+  0 0 10px #ffffff
+  0 0 20px #eff3bd;
+}
+.heptagrama{
+  height: 200px;
+  width: 200px;
+}
+
+/* FOOTER ****************************************************************************/
+
+.footer{
+  background: #000000;
+  align-items: center;
+  text-align: center;
+}  
+.box{
+  display: flex;
+  flex-flow: 1 1 auto;
+  justify-content: space-between;
+  text-align: center;
+}
+.centroOne h1{
+  color: #f1f3ce;
+  transition: 0.5s;
+  -moz-transition: 0.5s;
+  text-align: center;
+  font-weight: 200;
+  font-size: 20px;
+  justify-content: center;
+} 
+.centroOne{
+  margin-top: 60px;
+  transition: 1s;
+}
+  .centroOne:hover{
+    margin-left: 30px;
+    text-shadow: 
+    0 0 10px #e77b00
+    0 0 30px #e8ecc3;
+  }
+.gift{
+  height: 130px;
+  width: 130px;
+  margin: 20px;
+} 
+.rights{
+  height: 50px;
+  margin-top: 30px;
+}
+  .rights h5{
+    text-align: center;
+    font-size: 12px;
+  }
+
+  /* MEDIA ***********************************************************************************/
+/* 1250 */
+  @media only screen and (max-width: 1250px) {
+    .headerNav {
+      background-size: 1250px;
+    }
+    .cajas{
+      font-size: 12px;
+    }
+    .button {
+      padding: 2px 10px;
+    }
+    .centro{
+      display: flex;
+      align-items: flex-end;
+      margin-top: 10px;
+      margin-left: 30px;
+      transition: 2s;
+      -moz-transition: 2s;
+      height: 70px;
+      width: 70px;
+    }
+    .centro:hover{
+      transform: rotate(0deg);
+    }
+    .intro h2{
+    font-size: 45px;
+    }
+    .fondo h6{
+      margin-top: -15px;
+    }
+  }
+/* 992 */
+  @media only screen and (max-width: 992px) {
+    .headerNav {
+      background-image: none;
+    }
+    .headerNav:hover{
+      background-image: url(../multimedia/paginanav768.png);    
+      }
+    .cajas{
+      font-size: 12px;
+    }
+    .button {
+      padding: 2px 10px;
+    }
+    .centro{
+      display:none !important;
+    }
+    .intro h2{
+    font-size: 40px;
+    }
+    .sub{
+      margin-left: 100px;
+      margin-bottom: 10px;
+      color: #157474;
+    }
+    .tarjetas{
+      background: url(../multimedia/Fondos/siluetas3.png); 
+      background-size: 100%;
+    }
+    .palfondo{
+      font-size: 25px;
+    }
+    .fondo h6{
+      margin-top: -10px;
+    }
+    .explicacion h1{
+      font-size: 24px;
+      margin-left: 50px;
+      margin-right: 50px;
+    } 
+      .explicacion h1:hover{ 
+        text-shadow: 
+        0 0 10px white,
+        0 0 30px rgb(233, 240, 141);
+      }
+  .explicacion h5{
+    padding: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 14px;
+  }
+    h3{
+      font-size: 25px;
+    }
+  .explicacionUno h1{
+    font-size: 16px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+  } 
+  .comoFunciona{
+    margin-left: 10px;
+    margin-right: 10px;
+  } 
+  .fondoDos h2{
+    font-size: 16px;
+    margin-top: 30px;
+    margin-right: 30px;
+  }
+    .fondoDos h2:hover{
+      margin-left: 30px;
+    }
+  .card-title{
+    flex-flow: column wrap;
+    text-align: center;
+    margin-left: 5px;
+  }
+    .Uso h4{
+      font-size: 12px; 
+    }
+    .Name h5{
+      font-size: 20px;
+    }
+  .colores{
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .heptagrama{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+  }
+}
+
+/* 768 *********************************************************************************/
+
+  @media only screen and (max-width: 768px) {
+    .headerNav {
+      background: rgba(0, 0, 0, 0.699);
+      height: 70px;
+      margin-left: 0px;
+      justify-content: center;
+    }
+    
+  .cajas{
+    margin-top: -5px;
+    margin-right: 20px;
+    font-size: 10px;
+  }
+    
+    .button {
+      padding: 2px 10px;
+    }
+    .centro{
+      display:none !important;
+    }
+    .intro h2{
+    font-size: 30px;
+    }
+    .sub{
+      margin-left: 100px;
+      margin-bottom: 10px;
+      color: #157474;
+    }
+    
+    .palfondo{
+      font-size: 20px;
+    }
+    .fondo h6{
+      margin-top: 15px;
+    }
+    .explicacion h1{
+      font-size: 24px;
+      margin-left: 50px;
+      margin-right: 50px;
+    } 
+      .explicacion h1:hover{ 
+        text-shadow: 
+        0 0 10px white,
+        0 0 30px rgb(233, 240, 141);
+      }
+    .explicacion h5{
+      padding: 15px;
+      margin-left: 15px;
+      margin-right: 15px;
+      font-size: 14px;
+    }
+    h3{
+      font-size: 25px;
+    }
+    .runas{
+      display:none !important;
+    }
+    .runass{
+      display:none !important;
+    }
+    .heptagramas{
+      display: none !important;
+    }
+    .explicacionUno h1{
+      font-size: 16px;
+      margin-top: 30px;
+      margin-left: 30px;
+      margin-right: 30px;
+      } 
+      .comoFunciona{
+        margin-left: 10px;
+        margin-right: 10px;
+      } 
+      .fondoDos h2{
+        font-size: 16px;
+        margin-top: 30px;
+        margin-right: 30px;
+      }
+      .fondoDos h2:hover{
+        margin-left: 30px;
+      }
+      .card-title{
+        flex-flow: column wrap;
+        text-align: center;
+        margin-left: 5px;
+      }
+      .Uso h4{
+        font-size: 12px;
+        
+      }
+        .Name h5{
+          font-size: 20px;
+        }
+        .colores{
+          display: flex;
+          flex-flow: row wrap;
+        }
+        .heptagrama{
+          height: 100px;
+          width: 100px;
+          text-align: center;
+        }
+        .cardOne{
+          flex: 1 1 auto;
+        }
+        .gift{
+          height: 100px;
+          width: 100px;
+          margin: 20px;
+        }
+  }
